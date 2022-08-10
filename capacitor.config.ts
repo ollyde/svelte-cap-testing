@@ -1,13 +1,15 @@
-import { CapacitorConfig } from '@capacitor/cli';
+import { CapacitorConfig } from '@capacitor/cli'
 
 const config: CapacitorConfig = {
-  appId: 'com.polydelic.test',
-  appName: 'test-app',
-  webDir: 'dist',
-  bundledWebRuntime: false,
-  server: {
-    url: "http://localhost:5173/"
-  }
-};
+    appId: 'com.polydelic.test',
+    appName: 'test-app',
+    webDir: 'dist',
+    bundledWebRuntime: false,
+    server: {
+        // url: 'http://localhost:5173/',
+        url: 'http://10.0.2.2:5173',
+        cleartext: true,
+    },
+}
 
-export default config;
+export default config
