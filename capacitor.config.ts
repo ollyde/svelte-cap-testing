@@ -6,8 +6,8 @@ const config: CapacitorConfig = {
     webDir: 'dist',
     bundledWebRuntime: false,
     server: {
-        // url: 'http://localhost:5173/',
-        url: 'http://10.0.2.2:5173',
+        url: 'http://localhost:5173/',
+        // url: 'http://10.0.2.2:5173', // Android
         cleartext: true,
     },
 }
