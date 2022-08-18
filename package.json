@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "ios": "npx cap run ios",
+    "ios": "npx cap run ios --target=D46A8101-4256-42F2-9411-2E907153E23F",
     "android": "npx cap run android"
   },
   "devDependencies": {
