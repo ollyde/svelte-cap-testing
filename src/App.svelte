@@ -5,9 +5,17 @@
     import About from './pages/about.svelte'
 </script>
 
-<Router>
-    <Route path="/">
-        <Home />
-    </Route>
-    <Route path="about" component={About} />
-</Router>
+<div>
+    <Router>
+        <Route path="/">
+            <Home />
+        </Route>
+        <Route path="about" component={About} />
+    </Router>
+</div>
+
+<style>
+    text-heading:focus {
+        outline: none;
+    }
+</style>
